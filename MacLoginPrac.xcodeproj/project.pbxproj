@@ -7,18 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30469AF2AC565EA00236412 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30469AE2AC565EA00236412 /* MainView.swift */; };
+		A31DDF682AD6B68500CEAC70 /* UseFollowBuskingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DDF672AD6B68500CEAC70 /* UseFollowBuskingView.swift */; };
+		A31DDF6A2AD6B8B100CEAC70 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DDF692AD6B8B100CEAC70 /* Router.swift */; };
+		A31DDF6C2AD6BB8800CEAC70 /* ArtistBuskingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DDF6B2AD6BB8800CEAC70 /* ArtistBuskingView.swift */; };
+		A33917D82ACC1FFA00B0E1DC /* ArtistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33917D72ACC1FFA00B0E1DC /* ArtistViewModel.swift */; };
+		A33917DA2ACC200C00B0E1DC /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33917D92ACC200C00B0E1DC /* ArtistModel.swift */; };
+		A33917DC2ACC202E00B0E1DC /* FollowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33917DB2ACC202E00B0E1DC /* FollowingView.swift */; };
+		A345576B2AD5830C00F3E4DA /* BuskingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345576A2AD5830C00F3E4DA /* BuskingModel.swift */; };
+		A345576D2AD585BB00F3E4DA /* BuskingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345576C2AD585BB00F3E4DA /* BuskingViewModel.swift */; };
+		A399C5AD2AD84472001EF1E6 /* MemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399C5AC2AD84472001EF1E6 /* MemberModel.swift */; };
+		A399C5AF2AD84547001EF1E6 /* MemberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399C5AE2AD84547001EF1E6 /* MemberViewModel.swift */; };
 		A3AD9BE62AC2D552008B5134 /* MacLoginPracApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD9BE52AC2D552008B5134 /* MacLoginPracApp.swift */; };
-		A3AD9BE82AC2D552008B5134 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD9BE72AC2D552008B5134 /* ContentView.swift */; };
+		A3AD9BE82AC2D552008B5134 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD9BE72AC2D552008B5134 /* SignUpView.swift */; };
 		A3AD9BEA2AC2D553008B5134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AD9BE92AC2D553008B5134 /* Assets.xcassets */; };
 		A3AD9BED2AC2D553008B5134 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AD9BEC2AC2D553008B5134 /* Preview Assets.xcassets */; };
+		A3AD9BF52AC2D56D008B5134 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A3AD9BF42AC2D56D008B5134 /* Alamofire */; };
+		A3AD9BF72AC2EE79008B5134 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD9BF62AC2EE78008B5134 /* UserModel.swift */; };
+		A3AD9BF92AC2F7BC008B5134 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD9BF82AC2F7BC008B5134 /* LoginViewModel.swift */; };
+		A3AD9BFB2AC2FA6C008B5134 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD9BFA2AC2FA6C008B5134 /* ProfileImageView.swift */; };
+		A3AD9BFD2AC2FAF5008B5134 /* ProfileCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD9BFC2AC2FAF5008B5134 /* ProfileCreateView.swift */; };
+		A3C3F2C32AD1679B000185EF /* FollowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C3F2C22AD1679B000185EF /* FollowViewModel.swift */; };
+		A3D23EE12AC4721900BE8D59 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D23EE02AC4721900BE8D59 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A30469AE2AC565EA00236412 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A31DDF672AD6B68500CEAC70 /* UseFollowBuskingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseFollowBuskingView.swift; sourceTree = "<group>"; };
+		A31DDF692AD6B8B100CEAC70 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A31DDF6B2AD6BB8800CEAC70 /* ArtistBuskingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistBuskingView.swift; sourceTree = "<group>"; };
+		A33917D72ACC1FFA00B0E1DC /* ArtistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewModel.swift; sourceTree = "<group>"; };
+		A33917D92ACC200C00B0E1DC /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		A33917DB2ACC202E00B0E1DC /* FollowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingView.swift; sourceTree = "<group>"; };
+		A345576A2AD5830C00F3E4DA /* BuskingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuskingModel.swift; sourceTree = "<group>"; };
+		A345576C2AD585BB00F3E4DA /* BuskingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuskingViewModel.swift; sourceTree = "<group>"; };
+		A399C5AC2AD84472001EF1E6 /* MemberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberModel.swift; sourceTree = "<group>"; };
+		A399C5AE2AD84547001EF1E6 /* MemberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewModel.swift; sourceTree = "<group>"; };
 		A3AD9BE22AC2D552008B5134 /* MacLoginPrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLoginPrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AD9BE52AC2D552008B5134 /* MacLoginPracApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLoginPracApp.swift; sourceTree = "<group>"; };
-		A3AD9BE72AC2D552008B5134 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3AD9BE72AC2D552008B5134 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		A3AD9BE92AC2D553008B5134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3AD9BEC2AC2D553008B5134 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3AD9BF62AC2EE78008B5134 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A3AD9BF82AC2F7BC008B5134 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A3AD9BFA2AC2FA6C008B5134 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		A3AD9BFC2AC2FAF5008B5134 /* ProfileCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCreateView.swift; sourceTree = "<group>"; };
+		A3C3F2C22AD1679B000185EF /* FollowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewModel.swift; sourceTree = "<group>"; };
+		A3D23EE02AC4721900BE8D59 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AD9BF52AC2D56D008B5134 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +88,26 @@
 			isa = PBXGroup;
 			children = (
 				A3AD9BE52AC2D552008B5134 /* MacLoginPracApp.swift */,
-				A3AD9BE72AC2D552008B5134 /* ContentView.swift */,
+				A33917D92ACC200C00B0E1DC /* ArtistModel.swift */,
+				A3AD9BF62AC2EE78008B5134 /* UserModel.swift */,
+				A399C5AC2AD84472001EF1E6 /* MemberModel.swift */,
+				A345576A2AD5830C00F3E4DA /* BuskingModel.swift */,
+				A33917D72ACC1FFA00B0E1DC /* ArtistViewModel.swift */,
+				A3AD9BF82AC2F7BC008B5134 /* LoginViewModel.swift */,
+				A3C3F2C22AD1679B000185EF /* FollowViewModel.swift */,
+				A345576C2AD585BB00F3E4DA /* BuskingViewModel.swift */,
+				A399C5AE2AD84547001EF1E6 /* MemberViewModel.swift */,
+				A3AD9BFC2AC2FAF5008B5134 /* ProfileCreateView.swift */,
+				A3AD9BFA2AC2FA6C008B5134 /* ProfileImageView.swift */,
+				A3D23EE02AC4721900BE8D59 /* LoginView.swift */,
+				A3AD9BE72AC2D552008B5134 /* SignUpView.swift */,
+				A33917DB2ACC202E00B0E1DC /* FollowingView.swift */,
+				A31DDF672AD6B68500CEAC70 /* UseFollowBuskingView.swift */,
+				A30469AE2AC565EA00236412 /* MainView.swift */,
+				A31DDF6B2AD6BB8800CEAC70 /* ArtistBuskingView.swift */,
 				A3AD9BE92AC2D553008B5134 /* Assets.xcassets */,
 				A3AD9BEB2AC2D553008B5134 /* Preview Content */,
+				A31DDF692AD6B8B100CEAC70 /* Router.swift */,
 			);
 			path = MacLoginPrac;
 			sourceTree = "<group>";
@@ -83,6 +136,9 @@
 			dependencies = (
 			);
 			name = MacLoginPrac;
+			packageProductDependencies = (
+				A3AD9BF42AC2D56D008B5134 /* Alamofire */,
+			);
 			productName = MacLoginPrac;
 			productReference = A3AD9BE22AC2D552008B5134 /* MacLoginPrac.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +167,9 @@
 				Base,
 			);
 			mainGroup = A3AD9BD92AC2D552008B5134;
+			packageReferences = (
+				A3AD9BF32AC2D56D008B5134 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = A3AD9BE32AC2D552008B5134 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +196,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3AD9BE82AC2D552008B5134 /* ContentView.swift in Sources */,
+				A33917D82ACC1FFA00B0E1DC /* ArtistViewModel.swift in Sources */,
+				A345576B2AD5830C00F3E4DA /* BuskingModel.swift in Sources */,
+				A345576D2AD585BB00F3E4DA /* BuskingViewModel.swift in Sources */,
+				A3C3F2C32AD1679B000185EF /* FollowViewModel.swift in Sources */,
+				A31DDF6C2AD6BB8800CEAC70 /* ArtistBuskingView.swift in Sources */,
+				A3AD9BE82AC2D552008B5134 /* SignUpView.swift in Sources */,
+				A33917DA2ACC200C00B0E1DC /* ArtistModel.swift in Sources */,
+				A30469AF2AC565EA00236412 /* MainView.swift in Sources */,
+				A399C5AF2AD84547001EF1E6 /* MemberViewModel.swift in Sources */,
+				A3D23EE12AC4721900BE8D59 /* LoginView.swift in Sources */,
+				A31DDF6A2AD6B8B100CEAC70 /* Router.swift in Sources */,
+				A3AD9BF92AC2F7BC008B5134 /* LoginViewModel.swift in Sources */,
+				A31DDF682AD6B68500CEAC70 /* UseFollowBuskingView.swift in Sources */,
+				A3AD9BFB2AC2FA6C008B5134 /* ProfileImageView.swift in Sources */,
+				A399C5AD2AD84472001EF1E6 /* MemberModel.swift in Sources */,
+				A3AD9BF72AC2EE79008B5134 /* UserModel.swift in Sources */,
+				A3AD9BFD2AC2FAF5008B5134 /* ProfileCreateView.swift in Sources */,
+				A33917DC2ACC202E00B0E1DC /* FollowingView.swift in Sources */,
 				A3AD9BE62AC2D552008B5134 /* MacLoginPracApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +415,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A3AD9BF32AC2D56D008B5134 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3AD9BF42AC2D56D008B5134 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3AD9BF32AC2D56D008B5134 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A3AD9BDA2AC2D552008B5134 /* Project object */;
 }

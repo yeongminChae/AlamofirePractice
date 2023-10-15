@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct AnyView: View {
+    @ObservedObject var viewModel: LoginViewModel
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("ji")
+        }
+
     }
 }
 
 #Preview {
-    AnyView()
+    @ObservedObject var viewModel: LoginViewModel
+    AnyView(viewModel: viewModel)
 }

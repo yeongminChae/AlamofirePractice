@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct MacLoginPracApp: App {
+    @StateObject var viewModel = LoginViewModel()
+    @StateObject var followViewModel = FollowViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                if UserDefaults.standard.string(forKey: "accessToken") != nil {
+                    MainView(viewModel: viewModel, followViewModel: followViewModel)
+                        .onAppear() {
+                            viewModel.getProfile()
+                        }
+                } else {
+                    LoginView(viewModel: viewModel)
+                }
+            }
         }
     }
 }
